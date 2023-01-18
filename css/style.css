@@ -1,0 +1,66 @@
+.title {
+    width: 100%;
+    height: 100px;
+
+}
+
+.header-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-title {
+    display: flex;
+    justify-content: center;
+}
+
+.image-home {
+    width: 145px;
+    height: 274px;
+    left: 71px;
+    top: 79px;
+    border-radius: 226px;
+}
+
+.img-btn {
+    height: 100px;
+    width: 100px;
+}
+
+.header-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-menu {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+
+    }
+
+    .header-menu-item {
+        margin: 5px;
+    }
+
+
+}
+
+@media (min-width: 761px) {
+    .title {}
+}
