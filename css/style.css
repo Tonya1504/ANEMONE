@@ -1,7 +1,7 @@
 .title {
     width: 100%S;
     height: 100%;
-    background-color: aqua;
+
 }
 
 .header-block {
@@ -31,8 +31,8 @@
 }
 
 .img-btn {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .header-class {
@@ -43,6 +43,68 @@
 
 .header-menu {
     display: none;
+}
+
+.text-anemone {
+    width: 288px;
+    height: 63px;
+    left: 0px;
+    top: 326px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+
+
+.title-text {
+    width: 46px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 27px;
+    color: #000000;
+}
+
+.about-text {
+    width: 288px;
+    height: 140px;
+    left: 0px;
+    top: 61px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.img-about {
+    width: 288px;
+    height: 178px;
+    right: 0px;
+    top: 217px;
+    border-radius: 0px 639.5px 639.5px 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
 }
 
 @media (min-width: 650px) and (max-width:900px) {
