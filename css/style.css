@@ -107,6 +107,48 @@
     margin: 16px;
 }
 
+.item-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items-img {
+    margin: 16px;
+}
+
+.name {
+    width: 109px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.main-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
 @media (min-width: 650px) and (max-width:900px) {
     .header-menu {
         display: flex;
