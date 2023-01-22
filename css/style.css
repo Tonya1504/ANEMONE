@@ -155,6 +155,48 @@
     margin: 16px;
 }
 
+.blog {
+    margin: 16px;
+}
+
+.image-blog {
+    width: 122px;
+    height: 147px;
+    left: 0px;
+    top: 78px;
+}
+
+.text-blog {
+    width: 224px;
+    height: 22px;
+    left: 95px;
+    top: 270px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.blog-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-blog {
+    width: 153px;
+    height: 181px;
+    left: 130px;
+    top: 61px;
+    margin: 8px;
+}
+
 .name {
     width: 109px;
     height: 20px;
@@ -221,8 +263,11 @@
 }
 
 .footer {
-
+    margin: 0 auto;
     background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .footer-title {
@@ -261,7 +306,7 @@
 
 .footer-block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
