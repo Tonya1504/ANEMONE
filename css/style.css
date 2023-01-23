@@ -112,6 +112,13 @@
     flex-direction: row;
 }
 
+.delivery-img {
+    width: 320px;
+    height: 135px;
+    left: 0px;
+    top: 322px;
+}
+
 .button {
     display: flex;
     flex-direction: row;
@@ -156,7 +163,15 @@
 }
 
 .blog {
-    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .image-blog {
@@ -223,6 +238,11 @@
     opacity: 0.6;
 }
 
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .store-title {
     margin: 16px;
@@ -286,6 +306,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .footer-title {
